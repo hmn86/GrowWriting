@@ -1,0 +1,74 @@
+html{
+  font-size: 15px;
+}
+
+body{
+  font-family: "游ゴシック";
+  color: #313131;
+  width: calc(100% - 30%);
+  margin: auto;
+}
+
+::selection{ /* Safari */
+background: #FF3366; /* 背景カラー */
+color: #fff; /* 文字カラー */
+}
+::-moz-selection{ /* Firefox */
+background: rgb(0,120, 120, 0.2); /* 背景カラー */
+color: #000; /* 文字カラー */
+}
+
+ html :not(::-moz-selection){
+   background-color: #000;
+ }
+
+
+ .nextPage {
+   text-align: center;
+   text-decoration: none;
+   margin: 50px 0;
+ }
+
+ button {
+   background-color: #fff;
+   /* padding: 5px 70px; */
+   /* border: none; */
+   /* border-color: #86e7da; */
+   /* 枠線を消す */
+   outline: none;
+   /* クリックしたときに表示される枠線を消す */
+   border-color: #86e7da;
+   border-radius: 10px;
+   width: 200px;
+   height: 50px;
+ }
+
+ .nextPage a {
+   display: block;
+   /* padding: 5px 70px; */
+   font-size: 20px;
+   text-decoration: none;
+   color: #86e7da;
+   font-family: "游ゴシック";
+   font-weight: bold;
+ }
+
+ .nextPage a:visited {
+   color: #86e7da;
+ }
+
+ .new{
+   margin: 50px;
+ }
+
+ .text2{
+   margin: 50px;
+ }
+
+ .text3{
+   margin: 50px;
+ }
+
+/* .view1{
+  margin: 50px;
+} */

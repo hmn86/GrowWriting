@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>GrowWritte</title>
+  <link rel="stylesheet" type="text/css" href="css/all.css">
+  <link rel="stylesheet" type="text/css" href="css/newNovel1.css">
+  
+<script langurage="javascript" type="text/javascript">
+  function OnButtonClick(){
+    target = document.getElementById("output");
+    target.innerHTML = "Penguin";
+  }
+  </script>
+
+</head>
+<body>
+  <input type="button" value="Exec" onclick="OnButtonClick();"/><br />
+  <br />
+  <div id="output"></div>
+  </body>
+  </html>

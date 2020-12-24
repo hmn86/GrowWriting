@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>GrowWritte</title>
+  <link rel="stylesheet" type="text/css" href="css/all.css">
+  <link rel="stylesheet" type="text/css" href="css/newNovel2.css">
+
+<!-- <script type="text/javascript" src="js/newNovel2.js"></script> -->
+<script type="text/javascript" src="js/test2.js"></script>
+<!-- <script type="text/javascript" src="js/test.js"></script> -->
+</head>
+
+<body>
+  <script src="js/newNovel2.js"></script>
+  <header class="nabi">
+    <ul>
+      <li style="color: #cbcbcb">1.作品情報の入力</li>
+      <li style="color: #86E7DA">2.感想項目の選択</li>
+      <li style="color: #cbcbcb">3.本文の入力</li>
+    </ul>
+    </<header>
+
+    <!-- 感想 -->
+    <div class="imp">
+      <p>感想の受け取り</p>
+      <div class="impButton">
+        <label><input type="radio" name="imp" value="受け取る" checked>受け取る</label>
+        <label><input type="radio" name="imp" value="受け取らない">受け取らない</label>
+      </div>
+    </div>
+
+    <div class="comment">
+      <p>コメントの受け取り</p>
+      <div class="commButton">
+        <label><input type="radio" name="comm" value="受け取る" checked>受け取る</label>
+        <label><input type="radio" name="comm" value="受け取らない">受け取らない</label>
+      </div>
+    </div>
+
+<div class="colorSelect">
+<p>マーカーの色</p>
+<button id="selectBlue" type="button" onclick="setColor('selectBlue', '#BECFFF', '0')"></button>
+<button id="selectSblue" type="button" onclick="setColor('selectSblue', '#B4F7FF', '1')"></button>
+<button id="selectGreen" type="button" onclick="setColor('selectGreen', '#E0FFB7', '2')"></button>
+<button id="selectYellow" type="button" onclick="setColor('selectYellow', '#FFFC9B', '3')"></button>
+<button id="selectOrange" type="button" onclick="setColor('selectOrange', '#FFCF91', '4')"></button>
+<button id="selectPink" type="button" onclick="setColor('selectPink', '#FFA394', '5')"></button>
+<button id="selectRed" type="button" onclick="setColor('selectRed', '#FEB1DA', '6')"></button>
+</div>
+
+<div class="pageButton">
+<button class="back" type="button"><a href="newNovel1.html">戻る</a></button>
+<button class="next" type="button" onclick="selectCount()"><a href="newNovel3.html">次へ</a></button>
+<!-- <button class="next" type="button" onclick="selectCount()">次へ</button> -->
+
+</div>
+
+
+
+
+</body>
+
+</html>

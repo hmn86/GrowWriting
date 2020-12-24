@@ -1,0 +1,122 @@
+.imp {
+  margin: 50px 10%;
+}
+
+.imp p {
+  font-weight: bold;
+}
+
+.impButton label {
+  /* text-align: center; */
+  /* padding: 0 0 0 50px; */
+  margin-right: 100px;
+}
+
+.comment {
+  margin: 50px 10%;
+}
+
+.comment p {
+  font-weight: bold;
+}
+
+.commButton label {
+  /* text-align: center; */
+  /* padding: 0 0 0 50px; */
+  margin-right: 100px;
+}
+
+.colorSelect {
+  margin: 50px 10%;
+}
+
+.colorSelect p {
+  font-weight: bold;
+}
+
+.colorSelect button {
+  padding: 30px 20px;
+  margin: 0 30px 0 0;
+  border-style: none;
+  transition: .2s;
+}
+
+.colorSelect button:hover {
+  box-shadow: 0px 0px 10px #ccc;
+}
+
+.pageButton {
+  margin: 70px 10%;
+  text-align: center;
+}
+
+button {
+  /* background-color: #86e7da; */
+  /* padding: 5px 70px; */
+  border: none;
+  /* 枠線を消す */
+  outline: none;
+  /* クリックしたときに表示される枠線を消す */
+  background: transparent; /* 背景の灰色を消す */
+}
+
+.pageButton a {
+  display: block;
+  padding: 5px 70px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  font-family: "游ゴシック";
+  font-weight: bold;
+}
+
+.back {
+  margin: 0 30px 0 0;
+  background-color: #aaa;
+  transition: all .3s;
+  border-radius: 25px;
+}
+
+.back:hover{
+  background-color: #ccc
+}
+
+.next {
+  margin: 0 0 0 30px;
+    background-color: #86e7da;
+    transition: all .3s;
+    border-radius: 25px;
+}
+
+.next:hover {
+  background-color: #59b1eb;
+}
+
+.pageButton a:visited {
+  color: white;
+}
+
+
+
+
+#selectBlue {
+  background-color: #BECFFF;
+}
+#selectSblue {
+  background-color: #B4F7FF;
+}
+#selectGreen {
+  background-color: #E0FFB7;
+}
+#selectYellow {
+  background-color: #FFFC9B;
+}
+#selectOrange {
+  background-color: #FFCF91;
+}
+#selectPink {
+  background-color: #FFA394;
+}
+#selectRed {
+  background-color: #FEB1DA;
+}

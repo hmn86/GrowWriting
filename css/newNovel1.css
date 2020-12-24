@@ -1,0 +1,141 @@
+body {
+  text-align: center;
+}
+
+
+.title {
+  display: inline-block;
+  position: relative;
+  width: 80%;
+  margin: 60px 3% 40px;
+  text-align: center;
+  /* margin: auto; */
+}
+
+.title input[type='text'] {
+  font: 20px/24px sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.3em;
+  letter-spacing: 1px;
+  color: #313131;
+  border: none;
+  border-bottom: 3px solid #CBCBCB;
+  background: transparent;
+}
+
+.ef input[type='text']:focus {
+  border-bottom: 3px solid #86E7DA;
+  transition: 0.3s;
+  outline: none;
+}
+
+
+.genre {
+  margin: 80px 5%;
+}
+
+.genre p {
+  /* font-size: 20px; */
+  font-weight: bold;
+  margin: 0 0 40px 5%;
+  text-align: left;
+}
+
+.genreRadio1 {
+  margin: 20px 0 0 0;
+}
+
+.genreRadio2 {
+  margin: 30px 0 0 0;
+}
+
+.genre label {
+  margin: 50px 20% 50px 0;
+}
+
+
+.caption{
+  margin: 60px 3% 40px;
+}
+
+.caption label {
+  /* font-size: 20px; */
+  display: block;
+  font-weight: bold;
+  text-align: left;
+  margin: 0 0 0 8%;
+}
+
+textarea {
+  resize: none;
+  margin: 20px 0;
+}
+
+::placeholder {
+  color: #bfbfbf;
+}
+
+#captionIn {
+  width: 83%;
+  height: 200px;
+}
+
+
+.catchCopy {
+  display: inline-block;
+  position: relative;
+  width: 80%;
+  margin: 60px 3% 40px;
+  text-align: center;
+  /* margin: auto; */
+}
+
+.catchCopy input[type='text'] {
+  font: 20px/24px sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.3em;
+  letter-spacing: 1px;
+  color: #313131;
+  border: none;
+  border-bottom: 3px solid #CBCBCB;
+  background: transparent;
+}
+
+.catchCopy input[type='text']:focus {
+  border-bottom: 3px solid #86E7DA;
+  transition: 0.3s;
+  outline: none;
+}
+
+
+.pageButton {
+  text-align: center;
+  text-decoration: none;
+  margin: 50px 0;
+}
+
+button {
+  background-color: #86e7da;
+  /* padding: 5px 70px; */
+  border: none;
+  /* 枠線を消す */
+  outline: none;
+  /* クリックしたときに表示される枠線を消す */
+  border-radius: 25px;
+}
+
+.pageButton a {
+  display: block;
+  padding: 5px 70px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  font-family: "游ゴシック";
+  font-weight: bold;
+}
+
+.pageButton a:visited {
+  color: white;
+}

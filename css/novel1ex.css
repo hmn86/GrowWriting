@@ -1,0 +1,224 @@
+html {
+  font-size: 16px;
+  margin: 0 0 30px 0;
+}
+
+body {
+  font-family: "游ゴシック";
+  color: #313131;
+  /* width: calc(100% - 40%); */
+  margin: auto;
+  line-height: 190%;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  margin: 50px 0 20px;
+}
+
+html :not(::-moz-selection) {
+  background-color: #000;
+}
+
+/* #text article {
+  margin: 100px auto;
+
+  transition: .6s;
+
+}
+
+#commentArea {
+  margin: 10% 0 0 0;
+  float: left;
+}
+
+.container {
+  display: flex;
+}
+
+.empty {
+  flex: 1;
+
+}
+
+#text {
+  margin: 0 50px;
+
+  flex: 3;
+}
+
+#commentArea {
+  flex: 1;
+  margin-left: auto;
+
+} */
+
+
+.sel {
+  padding: 20px 20px;
+  margin: 10px 30px 0 0;
+  border-style: none;
+  transition: .2s;
+}
+
+/* .deleteColorButton {
+  margin 50px 0;
+} */
+
+
+/*
+.container {
+  flex-grow: 1;
+
+} */
+
+/* #textBox {
+
+  margin: 10px 0 0 0;
+  width: 300px;
+  height: 50px;
+
+  font-size: 16px;
+  border-radius: 3px;
+
+  border: 2px solid #ddd;
+
+  box-sizing: border-box;
+} */
+
+/* .commentTextArea{
+  display: flex;
+} */
+
+#commentText{
+  /* margin: 0 0 0 -20px; */
+  bottom: 0;
+}
+
+#commentText textarea{
+  width: 400px;
+  height: 20px;
+}
+
+#commentText button {
+  border: none;
+  /* 枠線を消す */
+  outline: none;
+  /* display: inline; */
+  /* margin: 0 0 20px 10px; */
+  /* クリックしたときに表示される枠線を消す */
+  background: transparent; /* 背景の灰色を消す
+  /* padding: 20px 30px; */
+  /* display: block; */
+  background-color: #86E7DA;
+  padding: 8px 40px;
+  /* margin-left: 30px; */
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  font-family: "游ゴシック";
+  font-weight: bold;
+  transition: .3s;
+}
+
+.commentTextArea button:hover {
+  background-color: #b2efe6;
+}
+
+#commentText{
+  position: static;
+}
+
+
+/* textarea {
+
+  resize: none;
+
+  font-size: 15px;
+  font-family: "游ゴシック";
+}
+
+textarea,
+.commentTextArea button {
+  vertical-align: top;
+} */
+
+footer {
+  display: flex;
+  background-color: #fafafa;
+  justify-content: space-around;
+  width: 100%;
+  /* margin-top: auto; */
+  position: fixed;
+  /* 固定 */
+  bottom: 0;
+  /* 一番下に表示 */
+}
+
+.footer {
+  display: flex;
+  /* width: calc(100% - 40%); */
+}
+
+#markButtun {
+  margin: 0 70px 30px 30px;
+  /* width: calc(100% - 40%); */
+}
+
+
+
+
+
+
+
+
+
+.deleteColor button {
+  border: none;
+  枠線を消す
+  outline: none;
+  /* クリックしたときに表示される枠線を消す */
+  /* background: transparent; /* 背景の灰色を消す */
+  /* padding: 20px 30px; */
+  /* display: block; */
+  padding: 5px 40px;
+  /* margin-left: 30px; */
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  font-family: "游ゴシック";
+  font-weight: bold;
+}
+
+.back {
+  margin: 10px 20px 0 0;
+  background-color: #aaa;
+  transition: all .3s;
+  border-radius: 25px;
+}
+
+.back:hover {
+  background-color: #ccc;
+}
+
+#deleteColorButton {
+  margin: 10px 0 0 10px;
+  background-color: #86e7da;
+  transition: all .3s;
+  border-radius: 25px;
+}
+
+#deleteColorButton:hover {
+  background-color: #59b1eb;
+}
+
+.deleteColor a:visited {
+  color: white;
+}
+
+span.mark1 {
+  background-color: yellow;
+}

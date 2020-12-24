@@ -1,0 +1,326 @@
+html {
+  font-size: 16px;
+  margin: 0 0 30px 0;
+}
+
+body {
+  font-family: "游ゴシック";
+  color: #313131;
+  /* width: calc(100% - 40%); */
+  margin: auto;
+  line-height: 190%;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  margin: 50px 0 20px;
+}
+
+html :not(::-moz-selection) {
+  background-color: #000;
+}
+
+#text article {
+  margin: 100px auto;
+  /* width: calc(100% - 40%); */
+  transition: .6s;
+  /* padding: 40px 0; */
+}
+
+#commentArea {
+  margin: 10% 0 80px 0;
+  float: left;
+  /* height: (100vh - 80px); */
+  overflow-y: scroll;
+}
+
+.container {
+  display: flex;
+}
+
+#empty {
+  flex: 1;
+  /* width: 300px; */
+}
+
+#text {
+  margin: 0 50px;
+  /* flex: 1; */
+  flex: 3;
+}
+
+#commentArea {
+  flex: 1;
+  margin-left: auto;
+  /* width:300px; */
+    flex-direction: column-reverse;
+}
+
+.commentadd{
+  /* display: flex; */
+    /* flex-direction: column-reverse; */
+}
+
+/* label {
+  white-space: nowrap;
+} */
+
+
+.sel {
+  padding: 20px 20px;
+  margin: 10px 30px 0 0;
+  border-style: none;
+  transition: .2s;
+  cursor : pointer;
+}
+
+
+.sel button:hover{
+  background-color: #ccc;
+}
+
+
+
+
+#textBox {
+  /* position: fixed; */
+  /* bottom: 0; */
+  margin: 10px 0 0 0;
+  width: 300px;
+  height: 50px;
+  /* padding: 10px 50px; /*ボックスを大きくする */
+  font-size: 16px;
+  border-radius: 3px;
+  /*ボックス角の丸み*/
+  border: 2px solid #ddd;
+  /*枠線*/
+  box-sizing: border-box;
+  /*横幅の解釈をpadding, borderまでとする*/
+}
+
+/* .commentTextArea{
+  display: flex;
+} */
+
+.commentTextArea{
+  margin: 0 0 0 -20px;
+  bottom: 0;
+}
+
+#commentText button {
+  border: none;
+  /* 枠線を消す */
+  outline: none;
+  /* display: inline; */
+  /* margin: 20px 0 20px 10px; */
+  /* クリックしたときに表示される枠線を消す */
+  background: transparent; /* 背景の灰色を消す*/
+  padding: 20px 10px;
+  /* display: block; */
+  background-color: #86E7DA;
+  padding: 8px 20px;
+  /* margin-left: 30px; */
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+  font-family: "游ゴシック";
+  font-weight: bold;
+  transition: .3s;
+}
+
+.commentTextArea button:hover {
+  background-color: #b2efe6;
+}
+
+#commentText{
+  position: static;
+}
+
+#commentText textarea{
+  width: 400px;
+  height: 35px;
+}
+
+
+textarea {
+    /* display: block; */
+  resize: none;
+  /* margin: 20px 0; */
+  font-size: 15px;
+  font-family: "游ゴシック";
+}
+
+textarea,
+#commentText button {
+  vertical-align: bottom;
+}
+
+footer {
+  display: flex;
+  background-color: #fafafa;
+  justify-content: space-around;
+  width: 100%;
+  /* margin-top: auto; */
+  position: fixed;
+  /* 固定 */
+  bottom: 0;
+  /* 一番下に表示 */
+}
+
+.footer {
+  display: flex;
+  /* width: calc(100% - 40%); */
+}
+
+#markButtun {
+  margin: 0 0 10px 0;
+  /* width: calc(100% - 40%); */
+  text-align: center;
+
+  display: flex;
+   flex-direction: column;
+}
+
+
+
+
+.commentadd{
+  font-size: 14px;
+  width: 230px;
+  padding: 5px 10px;
+  margin: 0 0 5px 0;
+  /* background-color: #2341f2; */
+  cursor : pointer;
+  color: #313131;
+}
+
+.commentadd p{
+    line-height: 150%
+}
+
+
+#send{
+/* padding: 20px 30px; */
+border: none;
+/* 枠線を消す */
+outline: none;
+/* display: inline; */
+margin: 0 0 0 30px;
+/* クリックしたときに表示される枠線を消す */
+background: transparent; /* 背景の灰色を消す*/
+/* padding: 20px 10px; */
+/* display: block; */
+background-color: #86E7DA;
+padding: 8px 20px;
+/* margin-left: 30px; */
+font-size: 15px;
+text-decoration: none;
+color: white;
+font-family: "游ゴシック";
+font-weight: bold;
+transition: .3s;
+  vertical-align: bottom;
+}
+
+#send:hover{
+  background-color: #4fe0cd;
+}
+
+
+#selectBlue {
+  background-color: #BECFFF;
+}
+#selectBlue:hover{
+  background-color: #85a5ff;
+}
+
+
+#selectSblue {
+  background-color: #B4F7FF;
+}
+#selectGreen {
+  background-color: #E0FFB7;
+}
+#selectYellow {
+  background-color: #FFFC9B;
+}
+#selectOrange {
+  background-color: #FFCF91;
+}
+#selectPink {
+  background-color: #FFA394;
+}
+#selectRed {
+  background-color: #FEB1DA;
+}
+
+
+
+.buttonrect{
+  display: flex;
+
+}
+
+.label{
+  display: flex;
+}
+
+.label3{
+  margin: 0 0 0 145px;
+}
+
+
+
+
+
+
+
+.deleteColor button {
+  border: none;
+  枠線を消す
+  outline: none;
+  /* クリックしたときに表示される枠線を消す */
+  /* background: transparent; /* 背景の灰色を消す */
+  /* padding: 20px 30px; */
+  /* display: block; */
+  padding: 5px 40px;
+  /* margin-left: 30px; */
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  font-family: "游ゴシック";
+  font-weight: bold;
+}
+
+.back {
+  margin: 10px 20px 0 0;
+  background-color: #aaa;
+  transition: all .3s;
+  border-radius: 25px;
+}
+
+.back:hover {
+  background-color: #ccc;
+}
+
+#deleteColorButton {
+  margin: 10px 0 0 10px;
+  background-color: #86e7da;
+  transition: all .3s;
+  border-radius: 25px;
+}
+
+#deleteColorButton:hover {
+  background-color: #59b1eb;
+}
+
+.deleteColor a:visited {
+  color: white;
+}
+
+span.mark1 {
+  background-color: yellow;
+}

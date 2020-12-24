@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <title>GrowWritte</title>
+  <link rel="stylesheet" href="css/novel3.css">
+  <script src="jquery/jquery-3.5.1.min.js"></script>
+  <!-- <script type="text/javascript" src="js/test.js"></script> -->
+  <!-- <script type="text/javascript" src="js/test2.js"></script> -->
+  <!-- <script type="text/javascript" src="js/newNovel2.js"></script> -->
+</head>
+
+<body onload="setColor2()">
+  <!-- <OBJECT DATA ="./夏の果.txt" type = "text/plain" width = "100%" height = "300%"></object> -->
+  <div class="container">
+    <div id="empty">
+    </div>
+    <div id="text">
+      <h1>文綴る晩夏</h1>
+      <article>
+        　脳内の大部分を埋め尽くす眠気が瞼を重くする。肌に纏わりつくようだった暑さが段々と影を潜めて、この季節の終わりを否応なしに突き付けてくる。頬杖をついてぼうっと空を眺めていれば、いつの間にか顔がずり落ちて、その衝撃で自分が眠っていたことに気付いた。<br>
+
+        　視界の端では放り出した宿題が机の上に積み上がっていて、手を付けねば終わることはないのに、もうすぐ期限が近い。計画性の無い自分は、ほとんどそれに手を付けることなく長い休みを遊び尽くしていた。その点に関する後悔は一切していない。高校生最後の夏なのだ。今遊ばずいつ遊ぶというのか。<br>
+
+        　開け放った窓から随分と涼しくなった夕暮れの風が、頬を撫でて通り過ぎた。あまりに心地よくて、一度開くと決めたはずの瞼が知らぬ間に落ち始める。両手で顔を叩いて、身体を預けていた椅子から立ち上がり、伸びをした。少しだけ冴えた頭を回し、階下のリビングへ向かう。眠気覚ましに氷をたっぷり入れたアイスコーヒーを作り、カラコロと音を鳴らすグラスを持って自室へ戻った。家族は皆仕事や部活で出払っていて、家には自分一人だけ。きしむ階段を上る音が、至る所に反響して鼓膜を揺らした。変わらぬ自室に戻り、グラスを机に置いて、傍にある鍵付きの引き出しへ手を伸ばす。その気になれば簡単に開けられてしまいそうな、ちゃちな鍵を大事に回して、そっと引き出しの中を覗く。そこには数枚のパステルカラーの封筒たちが眠っている。その一番上の一枚を取り出して、中身を思い出すために便箋を取り出した。<br>
+
+        　可愛らしい文面に似合わない達筆な文字で綴られたそれは、数年前に引っ越していった友人からの手紙。情報機器の発達したこの時代に手紙なんてと思われるかもしれないけれど、自分たちにはその距離感が心地よかった。季節の終わりにだけ綴り、投函して、返事が来るのはまた次の季節が終わる頃。一年にたった四回のやり取りは、適度な距離を保ったまま縁を繋げてくれている。<br>
+
+        　これが届いたのは数か月前、春の終わりのことだったから、一体何が書かれていたのか忘れてしまった。大抵はお互い独り言を連ねるだけのやり取りだけれど、どこか一部分だけは相手の話に触れるようにして返事を書くことが暗黙のルールになっている。どこを拾い上げようかと文字を追っていく。<br>
+
+        　この手紙を受け取る相手が、今どんな姿をしているのかも知らない。声も、喋り方も変わったかもしれない。お互いを繋ぐのは、こんな便箋一枚の細い繋がりだけ。携帯の番号も、メールアドレスも、SNSも何もかも知らない。それでも彼女と電子機器でやり取りをしている友人たちは、きっと彼女が綴る文字など知らないのだろう。そんなことを考えながら、便箋にペンを走らせる。この手紙に返事が来る秋の終わりには、一体自分はどうやって生きているのだろうか。せめて机の横にある宿題は終わっていたらいいな、なんて。<br>
+
+        　グラスの中に積み上がった氷の塔が、透明な音を立てて崩れていった。<br>
+
+        　夏が終わる。呼吸が浅くなるような鮮烈な夏が、記憶から姿を消すように終わっていく。<br>
+      </article>
+    </div>
+
+    <div id="commentArea">
+
+    </div>
+  </div>
+
+  <div id="commentText">
+    <!-- <textarea name="example" placeholder="コメントを入力"></textarea> -->
+  </div>
+
+  <footer>
+    <div class="footer">
+      <div id="markButtun" onclick="backup()">
+        <div class="buttonrect">
+        <button id="selectBlue" class="sel" type="button" onclick="buttonClick(this)"></button>
+        <button id="selectSblue" class="sel" type="button" onclick="buttonClick(this)"></button>
+        <button id="selectGreen" class="sel" type="button" onclick="buttonClick(this)"></button>
+        <button id="selectYellow" class="sel" type="button" onclick="buttonClick(this)"></button>
+        <button id="selectOrange" class="sel" type="button" onclick="buttonClick(this)"></button>
+        <button id="selectPink" class="sel" type="button" onclick="buttonClick(this)"></button>
+        <button id="selectRed" class="sel" type="button" onclick="buttonClick(this)"></button>
+        <!--送信ボタン-->
+      </div>
+      <div class="label">
+        <label class="label1">Bad!!</label>
+
+        <label class="label2">good!!</label>
+
+        <label class="label3">very good!!</label>
+      </div>
+    </div>
+
+      <div class="deleteColor">
+        <!-- <button class="back" type="button"><a href="file:///C:/Users/b1017245/Documents/grow1128/topIndex.html">戻る</a></button>
+          <button id="deleteColorButton" type="button" onclick="highlightcheck()">OFF</button> -->
+      </div>
+
+      <div class="commentTextArea">
+        <!-- <label for="textBox">
+            キャプションの入力<br>
+          </label> -->
+
+        <!-- <form> -->
+
+        <!-- <textarea id="textBox" name="example" placeholder="コメントを入力"></textarea> -->
+        <!-- </form> -->
+        <!-- <button onclick="getComment()">送信</button> -->
+      </div>
+    </div>
+
+
+  </footer>
+  <script type="text/javascript" src="js/test2.js"></script>
+
+</body>
+
+</html>
