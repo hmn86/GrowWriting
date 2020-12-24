@@ -72,12 +72,12 @@ function setColor3() {
   var selectButton = document.getElementsByClassName('select');
   // var num = 0;
   var data = JSON.parse(localStorage.getItem("selectCount")); //前ページから持ち越した配列を読み込む
-  var BASE = document.getElementById('markColor'); //BASEにHTMLからmarkColorを読み込む
+  var BASE = document.getElementById('markButtun'); //BASEにHTMLからmarkColorを読み込む
   var code2 = [];
 
   for (var j = 0; j < 4; j++) { //選択された色の数だけボタンを表示
-    var dataNum = data[j];
-    code2[j] = "#" + colorCode2[dataNum];
+    // var dataNum = data[j];
+    code2[j] = "#" + colorCode2[j];
     // BASE.insertAdjacentHTML('beforeend', '<button class="sel" type="button"></button>');
   }
 
